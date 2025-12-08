@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 import { createApp } from 'vue';
 import App from './App.vue';
 import './assets/styles.css';
 
 createApp(App).mount('#app');
-=======
 const { createApp } = Vue;
 
 createApp({
@@ -23,7 +21,7 @@ createApp({
       checkoutPhone: '',
       orderMessage: '',
       searchTimer: null,
-      apiBase: 'https://cw-back-end.onrender.com/' // if you host API on another domain, replace with full URL like 'https://your-api.onrender.com/api'
+      apiBase: 'https://cw-back-end.onrender.com/api' // if you host API on another domain, replace with full URL like 'https://your-api.onrender.com/api'
     };
   },
 
@@ -160,4 +158,3 @@ createApp({
     }
   }
 }).mount('#app');
->>>>>>> 82d3ce3 (Set apiBase to deployed backend URL for GitHub Pages)
