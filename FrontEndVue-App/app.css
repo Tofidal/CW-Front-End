@@ -1,9 +1,0 @@
-/* Base page background and small tweaks */
-body {
-  background: #f7f9fc;
-  margin: 0;
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-/* Keep Bootstrap utility compatible if included */
-.container { max-width: none; }
